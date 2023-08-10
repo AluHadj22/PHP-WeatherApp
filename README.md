@@ -40,3 +40,7 @@
 ## Лицензия
 
 Этот проект лицензируется согласно [MIT License](LICENSE).
+
+![Снимгит22ок](https://github.com/AluHadj22/PHP-WeatherApp/assets/140946881/4ee81e8c-2fde-446f-a06d-9763a0fca602)
+
+

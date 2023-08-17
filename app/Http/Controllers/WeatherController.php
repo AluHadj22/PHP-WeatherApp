@@ -5,6 +5,8 @@ use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\Request;
 //Воспользовался тем классом, который ларавел создал автоматически через консоль. Я не самый лучший в этом фреймворке и лучше использовать то, что есть из коробки
+//Честно говоря, мне просто ссыкотно трогать этот дефолтный класс, еще наебну каку-нибудь асбтракцию
+
 class WeatherController extends Controller
 {
     public function getWeather(Request $request)
@@ -36,7 +38,7 @@ class WeatherController extends Controller
         $status = "yes";
         $temperature = round($result['main']['temp']);
         $weatherCondition = $result['weather'][0]['main'];//температура, которую перевел в метрическую систему - по сути, все что тут есть это ключ и значение из джейсона api сайта
-        $windSpeed = $result['wind']['speed']; //скорость ветра
+        $windSpeed = $result['wind']['speed']; //скорость ветра! Чтоб этот опенмап подавился, де дакъ его джейсон файлу, который найти труднее, чем монашку в барделе
         $pressure = $result['main']['pressure']; // Атмосферное давление
         $humidity = $result['main']['humidity']; // Влажность
     } else {

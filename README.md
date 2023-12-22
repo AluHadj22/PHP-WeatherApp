@@ -1,3 +1,5 @@
+![Снимгит22ок](https://github.com/AluHadj22/PHP-WeatherApp/assets/140946881/4ee81e8c-2fde-446f-a06d-9763a0fca602)
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
